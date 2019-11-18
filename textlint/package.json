@@ -37,7 +37,7 @@
     "watch:server": "cd ../textlint-server && npm run watch"
   },
   "dependencies": {
-    "@taichi/vscode-textlint-server": "file:../textlint-server",
+    "@taichi/vscode-textlint-server": "^0.7.1",
     "minimatch": "^3.0.4",
     "vscode-languageclient": "^5.2.1",
     "vscode-uri": "^2.0.3"
@@ -65,6 +65,7 @@
     "onLanguage:tex",
     "onLanguage:latex",
     "onLanguage:doctex",
+    "onLanguage:asciidoc",
     "onCommand:textlint.showOutputChannel",
     "onCommand:textlint.createConfig",
     "onCommand:textlint.executeAutofix"
